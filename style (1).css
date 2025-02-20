@@ -13,7 +13,6 @@ header{
 }
 
 a{
-    text-align:right ;
     text-decoration: none;
     color: #000000;
 }
@@ -54,7 +53,7 @@ li{
 
 .container:hover{
     transform: scale(1.03);
-    transition: all 0.2s ease;
+    transition: all 0.2s;
 }
 
 .dove-content{
@@ -119,7 +118,7 @@ li{
 .btn-vome:hover{
     background-color: #6b6969;
     transform: scale(1.03);
-    transition: all 0.1s ease;
+    transition: all 0.2s;
 }
 
 .btn-vome a{
