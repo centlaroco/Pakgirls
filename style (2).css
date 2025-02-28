@@ -3,6 +3,10 @@ body{
     padding: 0%;
     margin: 0%;
 }
+a{
+    color: #000000;
+    text-decoration: none;
+}
 
 /* header */
 
@@ -10,16 +14,13 @@ header{
     display: flex;
     background-color: #fcfcfc;
     justify-content:center ;
+
 }
 
-a{
-    text-decoration: none;
-    color: #000000;
-}
 .logo {
     font-size: 50px;
     font-weight: bold;
-    padding: 25px 50px;
+    padding: 25px;
 }
 
 
@@ -58,7 +59,7 @@ a{
     text-align: left;
 }
 
-.dove-content button {
+.btn-dove {
     border-radius: 20px;
     width: 50px;
     height: 28px;
@@ -67,7 +68,7 @@ a{
     background-color: #ffffff;
 }
 
-.dove-content:hover button{
+.btn-dove:hover{
     background-color:#6b6969;
 }
 
@@ -115,6 +116,7 @@ a{
     background-color: azure;
     justify-content: center;
     flex-wrap: wrap;
+    text-align: left;
 }
 
 .liquid-soap{
@@ -126,9 +128,6 @@ a{
     transition: 0.2s ease;
 }
 
-.liquid-content h3{
-    text-align: left;
-}
 
 .liquid-button{
     background-color: bisque;
@@ -149,12 +148,13 @@ a{
     background-color: azure;
     justify-content: center;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 /* Section 4 */
 .tresa{
     padding: 40px 40px;
-    margin: 10px;
+
 }
 
 .tresa:hover img{
@@ -226,7 +226,8 @@ a{
     text-decoration: none;
  }
 
- .pic{ 
+ /* members */
+ #pic{ 
     display: flex;
     justify-content:center ;
     padding: 10px;
@@ -241,9 +242,7 @@ a{
 address{
     font-style: normal;
 }
-.info-content{
-    margin: 20px;
-}
+
 
 #nn{
     text-align: left;
@@ -252,4 +251,3 @@ address{
 #pp{
     text-align: right;
 }
-
