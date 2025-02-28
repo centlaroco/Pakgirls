@@ -9,31 +9,20 @@ body{
 header{
     display: flex;
     background-color: #fcfcfc;
-
+    justify-content:center ;
 }
 
 a{
     text-decoration: none;
     color: #000000;
+    text-align: center;
 }
-
-ul{
-    list-style-type: none;
-    display: flex;
-    flex-wrap:wrap ;
-}
-li{
-    padding: 10px;
-    float: right;
-    padding: 25px 30px;
-    font-size: 20px;
-}
-
-.nav{
+.logo {
+    font-size: 50px;
     font-weight: bold;
-    font-size: 40px;
     padding: 25px 50px;
 }
+
 
 /* Section 1 */
 #dove-section{
@@ -183,7 +172,7 @@ li{
 }
 .btn-condi:hover{
     background-color:azure;
-    transform: scale(1.03);
+    transform: scale(0.90);
     transition: 0.2s ease;
 }
 
@@ -192,11 +181,8 @@ li{
     padding: 25px;
     display: flex;
     justify-content: center;
-}
-
-.shoe-content{
-    font-family: Helvetica;
     text-align: center;
+    font-family: Helvetica;
 }
 
 .shoe-content h1{
@@ -204,7 +190,6 @@ li{
     font-weight: bold;
     margin-top: 0%;
     margin-bottom: 0%;
-    flex-wrap: wrap;
 }
 .shoe-content p{
     font-size: 15px;
@@ -245,18 +230,20 @@ li{
  .pic{ 
     display: flex;
     justify-content:center ;
-    padding: 5px 50px;
-    
+    padding: 10px;
 }
 
 .info{
     display: flex;
-   justify-content: center;
+    justify-content: center;
 
 }
 
+address{
+    font-style: normal;
+}
 .info-content{
-    width: 200px;
+    margin: 20px;
 }
 
 #nn{
@@ -266,5 +253,4 @@ li{
 #pp{
     text-align: right;
 }
-
 
